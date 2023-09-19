@@ -197,7 +197,7 @@ set(SDL_STATIC_DEFAULT ON)
 
 set(SDL_SHARED_AVAILABLE ON)
 set(SDL_STATIC_AVAILABLE ON)
-
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # All these *_DEFAULT vars will default to ON if not specified,
 # so you only need to override them if they need to be disabled.
 if(EMSCRIPTEN)
